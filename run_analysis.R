@@ -86,16 +86,4 @@ rm(aux_tab,auxDF,i,x,tabAllDataWSubject,groupBy)
 #write output table
 write.table(resultDF,"cleaning_result.txt",row.name=FALSE)
 
-# 
-# resultDF[20,c(1,2,3,4)]
-# 
-# tail(tabAllDataWSubject[,1:3],5)
-# 
-# aux_tab=tabAllDataWSubject[tabAllDataWSubject$Subject==groupBy[4,1],]
-# aux_tab=aux_tab[aux_tab$Activity==groupBy[4,2],]
-# 
-# 0.276767
-# mean(aux_tab[,68])
-# 
-# && 
-#   which(tabAllDataWSubject[,2]==groupBy[[i,2]]
+
